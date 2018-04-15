@@ -19,16 +19,16 @@ public class FirebaseTrigger {
 	private ShoppingGroup group;
 	private String language;
 
-	public final static String NEW_CART_CREATED_TITLE_FR = "un nouveau panier crÈe/modifiÈ";
-	public final static String NEW_CART_CREATED_TITLE_DE = "Einkaufskorb angelegt/ge‰ndert";
+	public final static String NEW_CART_CREATED_TITLE_FR = "un nouveau panier cr√©e/modifi√©";
+	public final static String NEW_CART_CREATED_TITLE_DE = "Einkaufskorb angelegt/ge√§ndert";
 
-	public final static String NEW_CART_CREATED_FR = "un nouveau panier a ÈtÈ crÈe ou le panier actuel a ÈtÈ modifiÈ";
-	public final static String NEW_CART_CREATED_DE = "ein neuer Einkaufskorb wurde angelegt oder der aktuelle Einkaufskorb wurde ge‰ndert";
+	public final static String NEW_CART_CREATED_FR = "un nouveau panier a √©t√© cr√©e ou le panier actuel a √©t√© modifi√©";
+	public final static String NEW_CART_CREATED_DE = "ein neuer Einkaufskorb wurde angelegt oder der aktuelle Einkaufskorb wurde ge√§ndert";
 
-	public final static String CART_ARCHIVED_TITLE_FR = "achats terminÈs";
-	public final static String CART_ARCHIVED_TITLE_DE = "Eink‰ufe erledigt";
+	public final static String CART_ARCHIVED_TITLE_FR = "achats termin√©s";
+	public final static String CART_ARCHIVED_TITLE_DE = "Eink√§ufe erledigt";
 
-	public final static String CART_ARCHIVED_FR = "le panier actuel a ÈtÈ archivÈ";
+	public final static String CART_ARCHIVED_FR = "le panier actuel a √©t√© archiv√©";
 	public final static String CART_ARCHIVED_DE = "der aktuelle Einkaufskorb wurde archiviert";
 
 	private long groupId;
@@ -146,7 +146,7 @@ public class FirebaseTrigger {
 		String receiverTokenList = "";
 		String message;
 		final String firebaseTargetURL = "https://fcm.googleapis.com/fcm/send";
-		final String SERVER_KEY = "key=AAAAov5jkdY:APA91bGQUqHe2fb-EBKiQsB3JjEAycFJuP9VvlLZP7ZmI1dBaUCbrMwIRy2XT3UbwtmLHt__zp9WfpTs76h9-478Y0-x-l3T6GTuXHsnHTpssmu4QHxE88TM_UqfVDE9MaitffGjYneX";
+		final String SERVER_KEY = "key=...";
 		SERVER_KEY.replace("\n", "");
 		String notification = "";
 		// if (pourpose == 1) {
