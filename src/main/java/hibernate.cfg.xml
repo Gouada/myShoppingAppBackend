@@ -12,8 +12,8 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">KanKan79!</property>
+        <property name="hibernate.connection.username">....</property>
+        <property name="hibernate.connection.password">.....</property>
 		<!--<property name="hibernate.connection.url">jdbc:postgresql://myshoppingcartapp.cnzcyatvzdpv.us-west-2.rds.amazonaws.com:5432/myShoppingCartApp</property> -->
 		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/myShoppingCartApp</property>
         <property name="hibernate.connection.pool_size">10</property>
